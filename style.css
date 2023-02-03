@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    border: 5px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    user-select: none;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.display_timer{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.display_headings{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.custom_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colon{
+    font-size: 50px;
+    padding: 0 5px;
+}
+.number{
+    font-size: 50px;
+    padding-right: 5px;
+}
+
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.button_1 {
+    cursor: pointer;
+}
+
+.button_1:active{
+    transform: translateY(4px);
+}
+
+.button_2 {
+    cursor: pointer;
+    background-color: rgb(28, 160, 249);
+    border-radius: 50%;
+    margin: 0 10px;
+    font-size: 30px;
+    padding: 5px;
+    box-shadow: 0 5px #999;
+}
+
+.button_2:active{
+    transform: translateY(4px);
+    box-shadow: 0 2px #666;
+}
+
+.disable_button{
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}

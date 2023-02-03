@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Timer</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="timer">
+                <div class="display_timer">
+                    <div class="custom_input">
+                        <div class="number" id="hrs">00</div>
+                        <div class="buttons">
+                            <div class="button_1" id="increase_hrs">🔼</div>
+                            <div class="button_1" id="decrease_hrs">🔽</div>
+                        </div>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="custom_input">
+                        <div class="number" id="mins">00</div>
+                        <div class="buttons">
+                            <div class="button_1" id="increase_mins">🔼</div>
+                            <div class="button_1" id="decrease_mins">🔽</div>
+                        </div>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="custom_input">
+                        <div class="number" id="secs">00</div>
+                        <div class="buttons">
+                            <div class="button_1" id="increase_secs">🔼</div>
+                            <div class="button_1" id="decrease_secs">🔽</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="display_headings">
+                    <div>hrs</div>
+                    <div>mins</div>
+                    <div>secs</div>
+                </div>
+                <div class="control">
+                    <div class="button_2" id="start_btn">▶️</div>
+                    <div class="button_2 disable_button" id="pause_btn">⏸️</div>
+                    <div class="button_2 disable_button" id="stop_btn">⏹</div>
+                    <div class="button_2" id="reset_btn">🔄️</div>
+                </div>
+            </div>
+            <div class="display_countdown" id="display_countdown"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
